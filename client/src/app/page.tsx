@@ -1,7 +1,4 @@
+import Dashboard from "./dashboard/page";
 export default function Home() {
-    return (
-        <main className="flex">
-            hello
-        </main>
-    );
+   return <Dashboard />;
 }
